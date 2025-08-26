@@ -12,9 +12,6 @@ dependencies = [
     "torch (>=2.7.1,<3.0.0)",
     "torchvision (>=0.22.1,<0.23.0)",
     "torchaudio (>=2.7.1,<3.0.0)",
-    "matplotlib (>=3.10.5,<4.0.0)",
-    "tqdm (>=4.67.1,<5.0.0)",
-    "jupyter (>=1.1.1,<2.0.0)",
     "tntorch (>=1.1.2,<2.0.0)",
 ]
 
@@ -34,6 +31,12 @@ priority = "explicit"
 black = "^25.1.0"
 flake8 = "^7.3.0"
 pytest = "^8.4.1"
+
+
+[tool.poetry.group.experiments.dependencies]
+jupyter = "^1.1.1"
+matplotlib = "^3.10.5"
+tqdm = "^4.67.1"
 wandb = "^0.21.1"
 
 [build-system]
