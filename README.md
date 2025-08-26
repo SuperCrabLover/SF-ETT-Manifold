@@ -13,6 +13,8 @@ providing efficient implementations for tensor decomposition and Riemannian opti
   - Discretized Laplace operator optimization
   - Quantum mechanics (Henon-Heiles potential)
 
+`SF-ETT-Manifold` uses [`tntorch`](https://github.com/rballester/tntorch) package for Tensor Train -rounding and -cross-approximation algorithms.
+
 ## Repository Structure
 
 ```
